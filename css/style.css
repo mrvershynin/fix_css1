@@ -20,7 +20,7 @@ font-face {
 
 }
 *{
-	margin 0;
+	margin: 0;
 	padding: 0;
 }
 html, body
@@ -31,57 +31,57 @@ html, body
 	background: #dfe2e3;
 	line-height: 18px;
 }
-. narrow{
+.narrow{
 	font-family: "myPTNarrow", "trebuchet ms", sans-serif;
 	font-size: 24px;
 	line-height: 28px;
 }
 /* Оформление левого меню */
 .left_side{
-	background: 1d282b;
+	background: #1d282b;
 	width: 300px;
 	position: fixed;
 	left: 0;
-	top 0;
+	top: 0;
 	height: 100%;
-	zindex: 5;
+	z-index: 5;
 }
 .logo_text{
-	padding: 20 px 10 px;
-	color:#fffffffff;
+	padding: 20px 10px;
+	color:#ffffff;
 	font-size: 24px;
 	line-height: 30px;
-	text-weight: normal;
+	font-weight: normal;
 	font-family: myPTNarrow;
 	text-align: center;
 }
 .logo_text a{
-	displa: inline-blok;
+	display: inline-block;
 }
 .logo_text span{
-	color:# 72898f;
+	color: #72898f;
 	font-size: 18px;
-	line-height: 24xp;
-	padding: 0 10 px 18 px;
+	line-height: 24px;
+	padding: 0 10px 18px;
 	text-align: center;
 	display: block;
-
-.left_menu{
-	margin-top 30px;
 }
-.left_menu u l{
-	display block;
+.left_menu{
+	margin-top: 30px;
+}
+.left_menu u li{
+	display: block;
 	list-style-type: none;
 }
 .left_menu li{
 	display: block;
-	heigth: 30px
+	height: 30px;
 	line-height: 30px;
 }
 .left_menu li a{
 	display: block;
 	line-height: 30px;
-	text-size: 18 px;
+	font-size: 18px;
 	font-family: myPTNarrow;
 	color:#ffffff;
 	text-decoration: none;
@@ -90,7 +90,7 @@ html, body
 .left_menu li a:hover{
 	background: #343e41;
 }
-social_img{
+.social_img{
 	text-align: center;
 }
 .social_img a{
@@ -100,50 +100,50 @@ social_img{
 	height: 30px;
 	overflow: hidden;
 }
-.social_img a: hover{
-	opaciti: 0,7;
+.social_img a:hover{
+	opacity: 0.7;
 }
 .tw_icon{
-	background: url("../images/social.png") top left norepeat;
+	background: url("../images/social.png") top left no-repeat;
 }
-. go_icon{
-	background: url("../images/social.png") top right norepeat;
+.go_icon{
+	background: url("../images/social.png") top right no-repeat;
 }
 .left_swap{
 	display: none;/* По умолчанию блок не виден,
 	он показывается, если срабатывает медиазапрос */
-	position: fixd;
+	position: fixed;
 	width: 50px;
 	left: 0;
 	top: 0;
 	height: 100%;
-	z-index: 6px;
-	background: url(../images/swipe.png) #1d282bzz center 20px no-repeat;
+	z-index: 6;
+	background: url(../images/swipe.png) #1d282b center 20px no-repeat;
 }
 
 
 /* Стили основного блока */
 .wrapper{
-	position: relativ;
+	position: relative;
 	background: #ffffff;
 	min-height: 200%;
 	min-width: 400px;
 	max-width: 1200px;
-	pading-left: 300px;
-	pading-right: 0px;
-	box-shadw: 0 0 10px rgba(0,0,0,0.2);
+	padding-left: 300px;
+	padding-right: 0px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .wrapper a{
-	color:# 576a6f;
+	color: #576a6f;
 }
-.wrapper a: hover{
+.wrapper a:hover{
 	color:#1d282b;
 }
 .text_block{
-	overflow: hiden;
-	color:#4a4a4a4a4a;
-	font-sie: 18px;
-	line-height: 24xp;
+	overflow: hidden;
+	color: #4a4a4a;
+	font-size: 18px;
+	line-height: 24px;
 	min-height: 200px;
 	background: url("../images/hr.png") left bottom repeat-x;
 	padding: 10px 40px 10px;
@@ -152,18 +152,18 @@ social_img{
 	color:#4a4a4a;
 	font-size: 36px;
 	line-height: 40px;
-	letter-space: 0px;
-	text-transformation: none;
+	letter-spacing: 0px;
+	text-transform: none;
 	font-family: myPTNarrow;
-	pading: 40px 0;
+	padding: 40px 0;
 	font-weight: normal;
 }
-h3
-	color:#4a4a4a;
+h3 {
+	color: #4a4a4a;
 	font-size: 24px;
 	line-height: 30px;
 	letter-spacing: -1px;
-	text-transformation: none;
+	text-transform: none;
 	font-family: myPTNarrow;
 	padding: 20px 0;
 	font-weight: normal;
@@ -179,51 +179,51 @@ h4{
 	font-weight: normal;
 }
 p{
-	margin-bottom      :        24pp;
+	margin-bottom: 24px;
 }
 .cent_img{
-	display: blok;
-	margin: 0 avto 40px;
+	display: block;
+	margin: 0 auto 40px;
 }
 .auto_img{
 	display: block;
 	max-width: 100%;
-	margin: 0 avto 24px;
+	margin: 0 auto 24px;
 }
 
 /* Оформление нижних блоков */
-.foter{
+.footer{
 	clear: both;
 	overflow: hidden;
 	text-align: center;
 	font-size: 0;
-	pading: 20px 40px;
+	padding: 20px 40px;
 }
 .footer_block{
 	vertical-align: top;
 	display: inline-block;
 	text-align: left;
-	width: 27 %;
-	padding: 2 %;
+	width: 27%;
+	padding: 2%;
 	font-size: 13px;
-
+}
 .footer_block img{
 	display: block;
 	margin: 10px auto;
-	max-widht: 100%;
+	max-width: 100%;
 }
 
 /* Переопределение стилей в медиазапросах */
-@media only screen and (maxwidth:800px){
+@media only screen and (max-width:800px){
  	.left_side{
- 		display: nooe;
+ 		display: none;
 	}
 
 	.left_swap{
 		display: block;
 	}
 	.wrapper{
-		pading-left: 50px;
+		padding-left: 50px;
 	}
 }
 @media only screen and (max-width:720px){
